@@ -35,7 +35,7 @@ Ensure you have a valid xss.txt file with XSS payloads. This file should be loca
 
 Run the tool:
 
-    python xss_scanner_gui.py
+    python xssscan.py
 
 Enter the URL you want to scan and press the Scan for XSS button.
 
