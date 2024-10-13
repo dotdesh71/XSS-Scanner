@@ -27,9 +27,9 @@ To install the required dependencies, run:
 
 Clone the repository and navigate to the project directory:
 
-    git clone https://github.com/yourusername/xss-scanner-tool.git
+    git clone https://github.com/dotdesh71/XSS-Scanner.git
 
-    cd xss-scanner-tool
+    cd XSS-Scanner
 
 Ensure you have a valid xss.txt file with XSS payloads. This file should be located in the same directory as the script.
 
