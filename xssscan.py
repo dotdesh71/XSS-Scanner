@@ -234,6 +234,10 @@ def show_instructions():
 def open_github():
     webbrowser.open("https://github.com/dotdesh71/XSS-Scanner")
 
+# Open Patreon link
+def open_patreon():
+    webbrowser.open("https://www.patreon.com/Dotdesh")
+
 # Shell upload functionality
 def upload_shell():
     url = url_entry.get()
@@ -336,6 +340,10 @@ instructions_button.grid(row=0, column=1, padx=5)
 # GitHub button
 github_button = tk.Button(additional_button_frame, text="GitHub", command=open_github, font=("Arial", 10))
 github_button.grid(row=0, column=2, padx=5)
+
+# Patreon button
+patreon_button = tk.Button(additional_button_frame, text="Support Us on Patreon", command=open_patreon, font=("Arial", 10))
+patreon_button.grid(row=0, column=3, padx=5)
 
 # Run the application
 root.mainloop()
