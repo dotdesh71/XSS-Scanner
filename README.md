@@ -60,4 +60,27 @@ License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 Contributing
 
+# Changelog
+
+## [v1.0.1] - 2024-10-13
+
+### Added
+- Shell upload functionality with proper error handling.
+- Instruction/guide button for new users with a popup providing usage instructions.
+- GitHub link to the project in the UI.
+
+### Changed
+- Improved UI/UX layout for better visual appeal.
+- Buttons rearranged for improved accessibility and usability.
+- Added a progress bar for visual feedback during scanning.
+
+### Fixed
+- Resolved issues with the pause/resume button not functioning correctly.
+- Fixed duplicate payload results appearing in the output.
+- Enhanced error handling for various operations, including database interactions.
+
+### Removed
+- Button colors for a cleaner look.
+
+
 Contributions are welcome! Please submit a pull request or open an issue to suggest improvements or report bugs.
