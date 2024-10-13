@@ -1,5 +1,7 @@
 # XSS Scanner Tool
 
+![XSS_Scanner](https://github.com/dotdesh71/XSS-Scanner/blob/main/screenshot.png)
+
 A Python-based XSS vulnerability scanner with a graphical user interface (GUI) built using `Tkinter`. This tool scans websites for XSS vulnerabilities by testing with a list of payloads loaded from an external file (`xss.txt`). It provides real-time updates, allowing you to pause, resume, and stop the scan, and it saves the results for later review. Additionally, the tool includes various customization options such as dark mode and bypass techniques.
 
 ## Features
