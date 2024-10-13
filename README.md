@@ -49,7 +49,7 @@ Reset the interface using the Reset button to clear previous scans.
 
 File Structure
 
-    xss_scanner_gui.py: Main Python script with GUI and scanning logic.
+    xssscann.py: Main Python script with GUI and scanning logic.
     xss.txt: File containing a list of XSS payloads (you need to provide this file).
     README.md: Project documentation.
 
